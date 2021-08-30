@@ -48,7 +48,8 @@ def main():
             print(f"""{forecast['applicable_date']}:
                   {forecast['weather_state_name']}
                   {round(forecast['max_temp'],1)}°C""")
-    return print("Sorry, city not found.")
+    else:
+        return print("Sorry, city not found.")
 
 
 if __name__ == '__main__':
