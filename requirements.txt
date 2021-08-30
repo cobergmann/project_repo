@@ -32,4 +32,3 @@ requests
 # general
 # sys
 datetime
-unittest
